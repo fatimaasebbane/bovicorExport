@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+import Acceuil from './pages/acceuil';
+import Races from './pages/races';
+import Galerie from './pages/galerie';
+import Contact from './pages/contact';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Error from './pages/error';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+
+        <Routes>
+          <Route index element={<Acceuil />}></Route>
+          <Route path='/acceuil' element={<Acceuil />}></Route>
+          <Route path='/races' element={<Races />}></Route>
+          <Route path='/galerie' element={<Galerie />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='*' element={<Error />}></Route>
+
+        </Routes>
+
+      </BrowserRouter>
     </div>
   );
 }
