@@ -1,19 +1,21 @@
 import '../ComponentsCSS/error.css';
 import { HashLink as Link } from "react-router-hash-link";
-function error() {
+import { useTranslation } from 'react-i18next';
+function Error() {
+    const { t } = useTranslation();
     return (
         <div id="notfound">
             <div class="notfound">
                 <div class="notfound-404">
                     <h1>Oops!</h1>
                 </div>
-                <h2 className='page404'>404 - Page not found</h2>
-                <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+                <h2 className='page404'>404 - {t('page')} </h2>
+                <p>{t('paraError')} </p>
                 <Link to='/acceuil' className='link'>
-                    <p className='button'>Go To Homepage</p>
+                    <p className='button'>{t('go')} </p>
                 </Link>
             </div>
         </div>
     );
 }
-export default error;
+export default Error;

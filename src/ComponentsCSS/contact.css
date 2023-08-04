@@ -1,5 +1,4 @@
 .bg-image {
-    background-image: url('https://weareinthenorth.files.wordpress.com/2016/12/img_0964.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,10 +14,11 @@
     font-size: 30px;
     font-family: montserrat;
     font-weight: bold;
-    text-shadow: 1.3px 1.5px #1F122E;
-    color: #318a08;
+    margin: 30px;
+    color: #1F122E;
     padding-bottom: 10px;
     letter-spacing: 3px;
+    text-decoration: underline #318a08;
 }
 
 .btn-primary {
@@ -40,10 +40,6 @@
     font-size: 18px;
 }
 
-
-.iconContact:hover {
-    transform: scale(1.2);
-}
 
 @media only screen and (max-width: 600px) {
     .para {
@@ -74,7 +70,6 @@
     }
 }
 
-/* Styles spécifiques pour les tablettes */
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .para {
@@ -102,4 +97,122 @@
         margin-top: 60px;
         margin-bottom: 70px;
     }
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 50px;
+}
+
+.lien {
+    color: black;
+}
+
+.ecrit1,
+.ecrit2,
+.ecrit3,
+.ecrit4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #318a08;
+
+    letter-spacing: 2px;
+    font-family: montaserrat;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.ecrit2 {
+    margin-right: 45px;
+}
+
+.ecrit3 {
+    margin-right: 10px;
+}
+
+.site {
+    font-size: 20px;
+    font-weight: 600;
+    color: #318a08;
+
+    letter-spacing: 2px;
+    font-family: montaserrat;
+    margin-left: 50px;
+    margin-right: 22px;
+}
+
+.iconContact {
+    font-size: 18px;
+    font-family: lato;
+}
+
+
+
+
+.iconsContact {
+    margin: 30px;
+    text-align: center;
+}
+
+
+
+.icon-container p i {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .ecrit1,
+    .ecrit2,
+    .ecrit3,
+    .ecrit4,
+    .site,
+    .iconContact {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .iconContact i {
+        font-size: 17px !important;
+    }
+
+    .site {
+        margin-left: 20px;
+        margin-right: 6px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .ecrit1,
+    .ecrit2,
+    .ecrit3,
+    .ecrit4,
+    .site,
+    .iconContact,
+    .phone {
+        font-size: 18px;
+        margin-left: 15px;
+        margin-right: 20px;
+
+    }
+
+    .site {
+        margin-left: 30px;
+        margin-right: 6px;
+    }
+
+    .phone {
+        margin-left: 150px;
+    }
+
+
 }

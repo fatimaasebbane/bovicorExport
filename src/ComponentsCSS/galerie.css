@@ -21,6 +21,15 @@ img {
     font-weight: 900;
     margin: 70px;
     color: #338A08;
-    text-shadow: 3PX 3PX #1F122E;
+    text-shadow: 1PX 1PX #1F122E;
     letter-spacing: 6px;
+}
+
+@media (max-width: 554px) {
+    .gal {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 40px;
+        text-shadow: 1px 1px #1F122E;
+    }
 }

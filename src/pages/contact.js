@@ -3,12 +3,16 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Contacter from '../components/contacter';
 import SliderComponent from '../components/sliderHome';
+
 function contact() {
     return (
         <div className="contacter">
             <Header />
+
             <br />
             <br />
+            <br />
+
             <SliderComponent />
             <Contacter />
             <Footer />
