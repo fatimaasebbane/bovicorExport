@@ -50,7 +50,7 @@ const Footer = () => {
                         <div className="col-md-5 col-lg-4 col-xl-3 mx-auto mb-4">
                             <h6 className="text-uppercase fw-bold">{t('titlefooter2')}</h6>
                             <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ backgroundColor: "#7c4dff" }} width={"90px"} height={"2px"} />
-                            <Link to='/acceuil' className='nav-link'>
+                            <Link to='/' className='nav-link'>
                                 <p className='paragraphFooter links' >
                                     {t('titr1')}
                                 </p>

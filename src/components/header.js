@@ -33,7 +33,7 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
                         <ul className="navbar-nav" >
-                            <Link to='/acceuil' className='nav-link'>
+                            <Link to='/' className='nav-link'>
                                 <li className="acceuil" id="acc">
                                     {t('titr1')}
                                 </li>
