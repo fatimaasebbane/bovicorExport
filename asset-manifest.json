@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bovicorExport/static/css/main.b838fa3f.css",
-    "main.js": "/bovicorExport/static/js/main.c7521e0f.js",
+    "main.js": "/bovicorExport/static/js/main.cf248c0c.js",
     "static/media/ovins2.jpg": "/bovicorExport/static/media/ovins2.95b313d7073ecbdf1db0.jpg",
     "static/media/ovins1.jpg": "/bovicorExport/static/media/ovins1.3b2303b829b4284676a5.jpg",
     "static/media/ovins4.jpg": "/bovicorExport/static/media/ovins4.ec0cba09fcf3abc85af7.jpg",
@@ -35,10 +35,10 @@
     "static/media/bovicorexport.png": "/bovicorExport/static/media/bovicorexport.528f7cc5f060a3740d61.png",
     "index.html": "/bovicorExport/index.html",
     "main.b838fa3f.css.map": "/bovicorExport/static/css/main.b838fa3f.css.map",
-    "main.c7521e0f.js.map": "/bovicorExport/static/js/main.c7521e0f.js.map"
+    "main.cf248c0c.js.map": "/bovicorExport/static/js/main.cf248c0c.js.map"
   },
   "entrypoints": [
     "static/css/main.b838fa3f.css",
-    "static/js/main.c7521e0f.js"
+    "static/js/main.cf248c0c.js"
   ]
 }
