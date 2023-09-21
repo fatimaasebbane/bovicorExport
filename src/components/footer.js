@@ -79,7 +79,7 @@ const Footer = () => {
                                 C. del Platino, 82, 28770 Colmenar Viejo, Madrid</p>
                             <p className='paragraphFooter'><i class="fas fa-map-marker"></i>
 
-                                BOVICOREXPORT, S.A. CIF: B08140660T
+                                BOVICOREXPORT, S.A. CIF: B8140660T
                                 C. Cam. los Molinos, 84, 16640 Belmonte, CUENCA. España
                             </p>
                             <p className='paragraphFooter'><i className="fas fa-envelope mr-3"></i> Contact@ bovicorexport.com</p>
