@@ -26,7 +26,7 @@ function Contacter() {
 
                                         <div className="icon-container">
                                             <p className='iconContact'><i className="fas fa-home mr-3"></i><span className='ecrit1'>{t('address')}:</span>BOVICOREXPORT, S.L. CIF: B08140660T
-                                                C. del Platin, 82, 28770 Colmenar Viejo, Madrid</p><br />
+                                                C. dl Platin, 82, 28770 Colmenar Viejo, Madrid</p><br />
                                             <p className='iconContact'><i className="fas fa-envelope mr-3"></i>
                                                 <span className='ecrit2'>{t('email')}</span>Contact@bovicorexport.com<br />
                                                 <span className='site'> {t('site')}:</span> <a href='https://bovicorexport.com' className='lien'>www.bovicorexport.com</a>
