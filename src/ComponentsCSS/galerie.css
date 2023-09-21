@@ -1,0 +1,35 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px;
+}
+
+.gallery-item {
+    width: calc(33% - 20px);
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.gal {
+    font-family: lato;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 70px;
+    color: #338A08;
+    text-shadow: 1PX 1PX #1F122E;
+    letter-spacing: 6px;
+}
+
+@media (max-width: 554px) {
+    .gal {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 40px;
+        text-shadow: 1px 1px #1F122E;
+    }
+}

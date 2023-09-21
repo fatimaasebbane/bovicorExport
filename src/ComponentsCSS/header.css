@@ -1,0 +1,91 @@
+.flag-icon {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+}
+
+.flag-icon-fr {
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.DJ8C5Hr_XGlJfsihftdMmgHaFt&pid=Api&P=0&h=180");
+}
+
+.flag-icon-us {
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.KavaQ8S3J55ajdZxtpwuHgHaEi&pid=Api&P=0&h=180");
+}
+
+.flag-icon-es {
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.-Wtbrwv0haVNR0iBQUjzIgHaEy&pid=Api&P=0&h=180g");
+}
+
+.logo {
+    width: 170px !important;
+    height: auto;
+}
+
+.nav-link {
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: lato;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    font-family: lato;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+}
+
+.acceuil {
+    font-size: 18px;
+    color: #1F122e;
+}
+
+.races {
+    font-size: 18px;
+    color: #1F122e;
+}
+
+.galerie {
+    font-size: 18px;
+    color: #1F122e;
+}
+
+.contact {
+    font-size: 18px;
+    color: #1F122e;
+
+}
+
+@media (max-width: 768px) {
+    .flag-icon {
+        width: 30px;
+
+        height: 20px;
+
+        margin-right: 20px;
+
+    }
+
+    .logo {
+        width: 130px !important;
+
+    }
+
+    .nav-link {
+        font-size: 14px;
+
+        margin-right: 10px;
+
+    }
+
+    .acceuil,
+    .races,
+    .galerie,
+    .contact {
+        font-size: 16px;
+
+    }
+}

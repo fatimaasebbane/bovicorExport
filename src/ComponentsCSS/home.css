@@ -1,0 +1,780 @@
+.partie {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+.partie1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 160px;
+    display: block;
+
+}
+
+.paragraph-container {
+    flex: 1;
+    padding-left: 15px;
+    font-family: Montserrat;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    word-spacing: 1.5px;
+    justify-content: center;
+    margin-left: 70px;
+    text-align: justify;
+
+}
+
+.société {
+    font-family: lato;
+    font-size: 20px;
+    letter-spacing: 3.5px;
+    word-spacing: 2px;
+    color: #338a08;
+    font-weight: 600;
+
+}
+
+.international {
+    font-family: Stencil Std, fantasy;
+    font-size: 32px;
+    color: black;
+    font-weight: 200;
+    letter-spacing: 8px;
+    word-spacing: 2px;
+
+}
+
+@media (max-width: 768px) {
+    .partie1 {
+        flex-direction: column;
+    }
+
+    .paragraph-container {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+
+    .paragraph-container {
+        padding-left: 5px;
+        letter-spacing: 1.5px;
+        word-spacing: 1px;
+        margin: 15px;
+        font-size: 12px;
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .société {
+        font-size: 14px;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+    }
+
+    .international {
+        font-size: 22px;
+        letter-spacing: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .société {
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        word-spacing: 0.5px;
+    }
+
+    .international {
+        font-size: 18px;
+        letter-spacing: 4px;
+    }
+}
+
+
+
+.partie2 {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #797777;
+    border-radius: 10% 25%;
+    margin: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #7ec659;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    transition: transform 0.3s ease;
+    box-shadow: 6px 6px 6px #1F122e !important;
+    font-size: 15px;
+}
+
+
+.titre1 {
+    margin-top: 0;
+    font-family: lato;
+    font-size: 22px;
+    letter-spacing: 3.5px;
+    word-spacing: 2px;
+    color: #1F122e;
+    font-weight: 600;
+
+}
+
+.P1 {
+    margin-top: 30px;
+}
+
+.P2 {
+    margin-top: 30px;
+}
+
+.P3 {
+    margin-top: 20px;
+}
+
+.title1 {
+    margin-top: 20px;
+}
+
+.title3 {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .partie2 {
+        flex-direction: column;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .img-fluid {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .paragraph {
+        flex-basis: calc(50% - 40px);
+        padding: 15px;
+        border: 1px solid #797777;
+        border-radius: 10% 25%;
+        margin: 15px;
+        letter-spacing: 1.5px;
+        word-spacing: 1px;
+
+        box-shadow: 6px 6px 6px #1F122e !important;
+        font-size: 15px;
+    }
+
+    .titre1 {
+        margin-top: 0;
+        font-family: lato;
+        font-size: 20px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #1F122e;
+        font-weight: 400;
+
+
+    }
+}
+
+@media (max-width: 480px) {
+    .paragraph {
+        flex-basis: calc(100% - 40px);
+        padding: 10px;
+        border: 1px solid #797777;
+        border-radius: 5% 15%;
+        margin: 10px;
+
+        letter-spacing: 1.5px;
+        word-spacing: 1px;
+
+        box-shadow: 4px 4px 4px #1F122e !important;
+        font-size: 12px;
+    }
+
+    .titre1 {
+        margin-top: 0;
+        font-family: lato;
+        font-size: 18px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        color: #1F122e;
+        font-weight: 400;
+
+
+    }
+}
+
+.partie4 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph2 {
+    flex: 1;
+    padding: 20px;
+    margin: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    word-spacing: 1.5px;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+    font-size: 17px;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .partie4 {
+        margin-top: 5px;
+    }
+
+
+    .paragraph2 {
+        flex: 1;
+        padding: 10px;
+        letter-spacing: 2px;
+        word-spacing: 1.5px;
+        font-size: 15px;
+    }
+}
+
+.paragraph2:hover {
+    transform: scale(1.2);
+}
+
+.title2 {
+    font-family: lato;
+    font-size: 21px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    color: #338a08;
+    font-weight: 600;
+
+
+}
+
+@media (max-width: 768px) {
+    .paragraph2 {
+        flex-basis: 100%;
+    }
+
+    .title2 {
+
+        font-size: 19px;
+        letter-spacing: 3.5px;
+        word-spacing: 2px;
+        font-weight: 500;
+
+
+    }
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.icon:hover {
+    transform: rotate(20deg);
+    transition: transform 0.2s ease;
+}
+
+.parag {
+    margin-top: 10px;
+}
+
+.paragraph:hover {
+    color: gray;
+    transform: scale(1.1);
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.paragraph {
+    animation: slideIn 1s ease-in-out;
+}
+
+.nosServices {
+    font-family: lato;
+    font-size: 40px;
+    color: #1F122e;
+    font-weight: 600;
+    letter-spacing: 8px;
+    word-spacing: 2px;
+
+}
+
+@media (max-width: 480px) {
+    .parag {
+        font-size: 10px;
+
+    }
+
+    .partie4 {
+        margin-top: 2px;
+    }
+
+    .paragraph2 {
+        flex: 1;
+        padding: 5px;
+        margin: 10px;
+        letter-spacing: 2px;
+        word-spacing: 1.5px;
+        font-size: 10px;
+    }
+
+    .title2 {
+
+        font-size: 16px;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        font-weight: 500;
+
+
+    }
+
+
+
+    .société {
+        font-size: 14px;
+        letter-spacing: 2px;
+        word-spacing: 0.5px;
+    }
+
+    .international {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+
+    .nosServices {
+        font-size: 25px;
+        color: #1F122e;
+        font-weight: 400;
+        letter-spacing: 5px;
+        word-spacing: 2px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .partie2 {
+        flex-direction: column;
+    }
+
+    .paragraph {
+        flex-basis: 100%;
+        padding: 5px;
+        margin: 10px;
+        letter-spacing: 2px;
+        word-spacing: 1.5px;
+        font-size: 13px;
+
+    }
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+
+.icon:hover {
+    transform: rotate(20deg);
+    transition: transform 0.2s ease;
+}
+
+.paragraph:hover {
+    color: gray;
+    transform: scale(1.1);
+}
+
+.paragraph2 {
+    flex: 1;
+    padding: 20px;
+    margin: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    word-spacing: 1.5px;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .paragraph2 {
+        flex-basis: 100%;
+    }
+
+    .parag {
+        font-size: 13px;
+
+    }
+}
+
+.parag {
+    font-size: 15px;
+
+}
+
+.paragraph:hover {
+    color: gray;
+    transform: scale(1.1);
+}
+
+.slider-title {
+    margin-bottom: 250px;
+}
+
+.bienvenue {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 6PX;
+    white-space: nowrap;
+    text-align: center;
+
+}
+
+.bovicor {
+    color: aliceblue;
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 6PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.slider-title-background span {
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.xdQYKmpTOGzO2FeuC3YlKwHaHa&pid=Api&P=0&h=180');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 992px) {
+    .bienvenue {
+        font-size: 40px;
+
+    }
+
+    .bovicor {
+        font-size: 60px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .bienvenue {
+        font-size: 30px;
+
+    }
+
+    .bovicor {
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 5PX;
+
+        white-space: nowrap;
+
+
+    }
+
+    .slider-title {
+        margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 999px) {
+    .bienvenue {
+        font-size: 40px;
+
+    }
+
+    .bovicor {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 5PX;
+
+        white-space: nowrap;
+
+
+    }
+
+    .slider-title {
+        margin-bottom: 140px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .bienvenue {
+        font-size: 20px;
+
+        text-align: center;
+    }
+
+    .bovicor {
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: 4PX;
+
+        white-space: nowrap;
+        text-align: center;
+        letter-spacing: 6px;
+    }
+
+    .slider-title {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 420px) {
+    .bienvenue {
+        font-size: 18px;
+
+        text-align: center;
+        letter-spacing: 2PX;
+        text-align: center !important;
+    }
+
+    .bovicor {
+        font-size: 23px;
+        font-weight: 400;
+        letter-spacing: 4PX;
+
+        white-space: nowrap;
+        text-align: center;
+        letter-spacing: 4px;
+    }
+
+    .slider-title {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 240px) {
+
+    .société {
+
+        font-size: 10px;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        color: #338a08;
+        font-weight: 200;
+
+    }
+
+    .international {
+
+        font-size: 12px;
+        color: black;
+        font-weight: 200;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+
+    }
+
+    .bienvenue {
+        font-size: 10px;
+    }
+
+    .bovicor {
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 1PX;
+
+        white-space: nowrap;
+
+    }
+
+}
+
+@media (max-width: 340px) {
+    .bienvenue {
+        font-size: 12px;
+
+    }
+
+    .bovicor {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 3PX;
+
+        white-space: nowrap;
+
+
+    }
+
+    .slider-title {
+        margin-bottom: 10px;
+    }
+
+    .back-image {
+        display: none;
+    }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        width: 100%;
+        height: 290px !important;
+    }
+
+    .img-fluide {
+        position: absolute;
+        bottom: 40% !important;
+        right: 30%;
+        max-width: 60% !important;
+    }
+
+    .blur-image {
+        height: 300px !important;
+    }
+
+
+}
+
+@media (max-width: 300px) {
+    .carousel-item img {
+        width: 100%;
+        height: 200px !important;
+    }
+
+    .blur-image {
+        height: 200px !important;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .carousel-item img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+/* Position the logo at the bottom right corner */
+.carouse {
+    position: relative;
+}
+
+.img-fluide {
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+    max-width: 50%;
+    /* Adjust the size of the logo as needed */
+    height: auto;
+}
+
+.blur-image {
+    filter: blur(2px);
+    height: 500px;
+    /* Adjust the blur amount as needed */
+}
+
+.fade-ini {
+    animation: fadeInAnimation 2s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.home {
+    position: relative;
+}
+
+.scroll-icon {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    z-index: 1000;
+    font-size: 20px;
+}
