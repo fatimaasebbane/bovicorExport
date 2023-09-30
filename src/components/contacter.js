@@ -29,7 +29,7 @@ function Contacter() {
 <<<<<<< HEAD
                                                 C. dl Platin, 82, 28770 Colmenar Viejo, Madrid</p><br />
 =======
-                                                C. del Platino, 82, 28770 Colmenar Viejo, Madrid</p><br />
+                                                C. del Plattino, 82, 28770 Colmenar Viejo, Madrid</p><br />
 >>>>>>> 1dad0fa963d974e89f54568d6c1e32e1cce2949c
                                             <p className='iconContact'><i className="fas fa-envelope mr-3"></i>
                                                 <span className='ecrit2'>{t('email')}</span>Contact@bovicorexport.com<br />
